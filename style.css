@@ -1,69 +1,51 @@
 body {
-  margin: 0;
-  padding: 0;
-  background: linear-gradient(135deg, #ffe0f0, #d0e8ff);
-  font-family: 'Comic Sans MS', 'Segoe UI', cursive;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+  font-family: 'Arial', sans-serif;
+  background: #fff0f5;
+  text-align: center;
+  padding: 50px;
 }
 
 .wrapper {
-  background: white;
-  padding: 30px;
-  border-radius: 20px;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-  text-align: center;
-  max-width: 400px;
+  max-width: 500px;
+  margin: auto;
 }
 
 .question {
   font-size: 24px;
   color: #ff69b4;
-  margin-bottom: 10px;
 }
 
 .question-prompt {
-  font-size: 14px;
-  color: #666;
+  font-size: 16px;
   margin-bottom: 20px;
 }
 
 .gif {
   width: 100%;
-  max-width: 260px;
-  border-radius: 16px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
   margin-bottom: 20px;
 }
 
 .btn-group {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap;
-  margin-top: 20px;
   position: relative;
 }
 
 button {
-  padding: 12px 20px;
-  font-size: 16px;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 18px;
   border: none;
-  border-radius: 12px;
+  border-radius: 10px;
   cursor: pointer;
-  transition: 0.3s ease;
-  min-width: 120px;
 }
 
 .yes-btn {
-  background-color: #ff6b81;
+  background-color: #f08080;
   color: white;
-  position: absolute;
 }
 
 .no-btn {
-  background-color: #6fcf97;
+  background-color: #87cefa;
   color: white;
+  position: absolute;
 }
