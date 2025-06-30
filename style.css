@@ -1,7 +1,7 @@
 .btn-group {
   display: flex;
   justify-content: center;
-  gap: 20px; /* khoảng cách giữa 2 nút */
+  gap: 20px; 
   flex-wrap: wrap;
   margin-top: 20px;
   position: relative;
